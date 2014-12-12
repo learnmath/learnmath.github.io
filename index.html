@@ -45,35 +45,35 @@
     <div class="container">
       <h1 id="learn-you-some-algebras-for-glorious-good">Learn You Some Algebras for Glorious Good!</h1>
 <p>This is a math book. We aim to take a logically rigorous, yet informal approach to math.</p>
-<p>The title (and content) is inspired by Miran Lipovača’s <a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good!</a>. If you want to learn the Haskell programming language, we recommend that book.</p>
-<p>I have observed that most math (and science) books nowadays seem to take an approach wherein it’s more important to keep an academic tone than it is for the reader to enjoy reading the book, and to understand the material. We take the opposite approach. Many of the things in this book are ungrammatical or just plain wrong. For example, see this excerpt on the Greek letter () (eta):</p>
+<p>The title (and content) is inspired by Miran Lipovača's <a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good!</a>. If you want to learn the Haskell programming language, we recommend that book.</p>
+<p>I have observed that most math (and science) books nowadays seem to take an approach wherein it's more important to keep an academic tone than it is for the reader to enjoy reading the book, and to understand the material. We take the opposite approach. Many of the things in this book are ungrammatical or just plain wrong. For example, see this excerpt on the Greek letter () (eta):</p>
 <blockquote>
-<p>The ancient Greeks were too dumb to understand what eight is, so every time someone brought it up, they would say “uh” immediately afterwords. The sound “eight-uh” became so common, that they decided to make it a letter. The Greeks’ poor comprehension of mathematics remains to this day, and is largely the reason for their current financial crisis.</p>
-<p>You will also notice that Greek letters are frequently used in physics. This is the physicists’ way of conceding that they actually have no idea what they are talking about, and pleading for help from the mathematicians.</p>
+<p>The ancient Greeks were too dumb to understand what eight is, so every time someone brought it up, they would say &quot;uh&quot; immediately afterwords. The sound &quot;eight-uh&quot; became so common, that they decided to make it a letter. The Greeks' poor comprehension of mathematics remains to this day, and is largely the reason for their current financial crisis.</p>
+<p>You will also notice that Greek letters are frequently used in physics. This is the physicists' way of conceding that they actually have no idea what they are talking about, and pleading for help from the mathematicians.</p>
 </blockquote>
 <p>I took a stab at a similar idea <a href="https://github.com/pharpend/lyaa">here</a>.</p>
-<p>Our channel is <code>#learnmath</code> on FreeNode. If you don’t already have IRC set up, you can use <a href="http://webchat.freenode.net/?channels=%23learnmath&amp;uio=MT11bmRlZmluZWQb1">FreeNode’s qwebirc client to connect.</a>.</p>
+<p>Our channel is <code>#learnmath</code> on FreeNode. If you don't already have IRC set up, you can use <a href="http://webchat.freenode.net/?channels=%23learnmath&amp;uio=MT11bmRlZmluZWQb1">FreeNode's qwebirc client to connect.</a>.</p>
 <h1 id="license">License</h1>
 <p>The book will be completely open-source, anyone is welcome to contribute. We will probably license it under the Creative Commons ShareAlike (CC-SA) license, or some variant thereof.</p>
-<p>Assuming we use CC-SA, this would be our motivation: We don’t want there to be too many strings attached. The basic requirement is, you are not allowed to make changes unless we can then implement those changes into our work. You are however, unlike most books, free to download, change, redistribute, print, sell, what-have-you, as long as you give us credit.</p>
-<p><strong>Edit</strong>: For the time being, we will use the Creative Commons ShareAlike 4.0 License, I’ve decided. You can see the license in the LICENSE file.</p>
+<p>Assuming we use CC-SA, this would be our motivation: We don't want there to be too many strings attached. The basic requirement is, you are not allowed to make changes unless we can then implement those changes into our work. You are however, unlike most books, free to download, change, redistribute, print, sell, what-have-you, as long as you give us credit.</p>
+<p><strong>Edit</strong>: For the time being, we will use the Creative Commons ShareAlike 4.0 License, I've decided. You can see the license in the LICENSE file.</p>
 <h1 id="content-and-development">Content and development</h1>
-<p>Nothing is set in stone, but here’s the basic idea</p>
+<p>Nothing is set in stone, but here's the basic idea</p>
 <ol style="list-style-type: decimal">
-<li>We’ll make an outline for the contents of the book.</li>
-<li>We’ll start writing/revising/editing, etc.</li>
+<li>We'll make an outline for the contents of the book.</li>
+<li>We'll start writing/revising/editing, etc.</li>
 </ol>
-<p>Wow, so intuitive. Here’s some more stuff</p>
+<p>Wow, so intuitive. Here's some more stuff</p>
 <ul>
-<li>We’ll probably use <a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">Pandoc’s Markdown</a> as the primary markup language. It’s like <a href="http://daringfireball.net/projects/markdown/">normal markdown</a>, but it has things like citations and mathml stuff.</li>
-<li>We’ll use <a href="http://www.mathjax.org/">MathJax</a> (or some other JS-based TeX engine) to do math formatting</li>
-<li>We’ll have graphs generated with <a href="http://www.sagemath.org/">Sage</a> (and maybe code examples)</li>
+<li>We'll probably use <a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">Pandoc's Markdown</a> as the primary markup language. It's like <a href="http://daringfireball.net/projects/markdown/">normal markdown</a>, but it has things like citations and mathml stuff.</li>
+<li>We'll use <a href="http://www.mathjax.org/">MathJax</a> (or some other JS-based TeX engine) to do math formatting</li>
+<li>We'll have graphs generated with <a href="http://www.sagemath.org/">Sage</a> (and maybe code examples)</li>
 <li>We might use <a href="http://www.idris-lang.org/">Idris</a> for proofs and stuff.</li>
-<li>We’ll probably use <a href="http://jaspervdj.be/hakyll/">Hakyll</a> to generate the site, at least initially.</li>
+<li>We'll probably use <a href="http://jaspervdj.be/hakyll/">Hakyll</a> to generate the site, at least initially.</li>
 <li>Host it on GitHub pages.</li>
-<li>Hakyll is a Haskell library, so we’ll probably need to manage the project with cabal (to do dependency management, etc).</li>
+<li>Hakyll is a Haskell library, so we'll probably need to manage the project with cabal (to do dependency management, etc).</li>
 </ul>
-<p>We’ll take a very informal tone, and won’t pay too much attention to conventions or notation. (Well, duh, that’s the entire point of the book).</p>
+<p>We'll take a very informal tone, and won't pay too much attention to conventions or notation. (Well, duh, that's the entire point of the book).</p>
 <p>You can see a <a href="outline.html">preliminary outline</a> if you want.</p>
       <center>
         <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
@@ -89,7 +89,5 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- <script src="/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script> -->
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
   </body>
 </html>
